@@ -43,4 +43,14 @@
     - Types of errors
     - Best way to avoid temporal dead zone is to initialize variable on top
 
-    
+# EP-09 | BLOCK SCOPE & Shadowing in JS 🔥
+
+    - Also known as compound statement
+    - Compound statemnt -> using group of Multiple statements Where JS expects One Statement
+    - Blockscope- What all variable and function used inside Block;
+    - Let and const Have blocked scope
+
+    - Shadowing -----> When a variable inside a scope has the same name as one outside, hiding the outer variable.
+    - We have 3 Scope in JS Global, Block, local
+    console.log(c);
+    - 
