@@ -8,3 +8,11 @@
 
     - Whenever fucntion invokation happens A execution context is created and pushed inside call stack
     ![How Code executes in JS](image.png)
+
+# EP-05 | SHORTEST JS Program 🔥window & this keyword
+
+    - Window is Global object created along with Global execution context
+    - this is created for all Execution context [GEC, FEC];
+    - this refers to the window object at Global level
+    - Google uses v8 engine
+    -
