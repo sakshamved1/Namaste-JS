@@ -34,3 +34,13 @@
     - The scope chain is nothing but the chain of all this lexical environment and its parent references
     - ![Scope chaining](image-1.png)
 
+# EP-08 | let & const in JS 🔥Temporal Dead Zone
+
+    - let and const are hoisted but in diff way than VAR
+    - let and const are in temporal dead zone in time Being
+    - The phase from hoisting tilll it assigned some value that Phrase is known as temporal Dead zone
+    - When variable are in temporal dead zone you cannot access it
+    - Types of errors
+    - Best way to avoid temporal dead zone is to initialize variable on top
+
+    
