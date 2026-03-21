@@ -53,4 +53,23 @@
     - Shadowing -----> When a variable inside a scope has the same name as one outside, hiding the outer variable.
     - We have 3 Scope in JS Global, Block, local
     console.log(c);
-    - 
+    -
+
+# EP-10 | Closures in JS 🔥
+
+    - Function with its lexical Scope forms a closure.
+    - A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment).
+    - We can Return a Function from inside a function
+    - We can pass fucntion as argument.
+    - when function is returned they still remmember its lexical scope
+
+
+    # Uses of closures
+        - module Design pattern
+        - function Currying
+        - function like Once
+        - memoize
+        - setTimeouts
+        - Iterator
+
+        - currying is a technique of evaluating function with multiple arguments into sequence of functions with single argument
