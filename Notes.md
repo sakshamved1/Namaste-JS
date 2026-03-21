@@ -15,4 +15,22 @@
     - this is created for all Execution context [GEC, FEC];
     - this refers to the window object at Global level
     - Google uses v8 engine
-    -
+
+# EP-06 | undefined vs not defined in JS 🤔
+
+    - undefined is a placeholder for a variable that has been declared but not yet assigned a value.
+    - not defined is an error that occurs when you try to access a variable that has not been declared at all.
+
+    - JS is a looselly typed language which means you can assign any type of value to a variable without any error.
+
+# EP-07 | The Scope Chain, 🔥Scope & Lexical Environment
+
+    - Scope means where you can access a variable and function in your code.
+    - Whenever a execution is created lexical envrionemnt also created
+    - lexical means in sequence
+    - Lexical envrionment is local memory + lexical environment of its parent
+    - Global level lexical environment points to null
+
+    - The scope chain is nothing but the chain of all this lexical environment and its parent references
+    - ![Scope chaining](image-1.png)
+

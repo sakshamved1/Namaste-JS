@@ -1,2 +1,0 @@
-
-###### Namaste JS Beginssss
