@@ -51,7 +51,7 @@
     - Let and const Have blocked scope
 
     - Shadowing -----> When a variable inside a scope has the same name as one outside, hiding the outer variable.
-    - We have 3 Scope in JS Global, Block, local
+    - We have 3 Scope in JS Global, Block, Function
     console.log(c);
     -
 
@@ -73,3 +73,15 @@
         - Iterator
 
         - currying is a technique of evaluating function with multiple arguments into sequence of functions with single argument
+
+# EP-11 | setTimeout + Closures Interview Question 🔥
+
+    - Time tide and JS Waits for none
+    - Settimeout inside a loop forms a closure and it will always refer to the last value of the variable in the loop
+    - Closure  =  function + lexical scope [It remmebers reference to its lexical variables]
+    - We can form a closure by using function which takes new copy of variable in each iteration
+
+# EP-12 | CRAZY JS INTERVIEW 🤯ft. Closures
+
+    - Whenever a function invoked it creats a copy of all its variables in its lexical scope
+    
