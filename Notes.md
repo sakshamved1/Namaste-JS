@@ -97,10 +97,25 @@
 
     - firstClass function or function first Class Citizen ----> function that can be treated as a value and can be passed as an argument to another function or returned from another function
 
-
 # EP-14 | Callback Functions in JS ft. Event Listeners 🔥
 
+    - JS is a synchronous single threaded language with the help of callback functions, setTimeout Opens the door for Asynchronous programming in JS
     - A callback function is a function that is passed as an argument to another function and is executed after some operation has been completed.
     - Callback functions are commonly used in asynchronous programming to handle events or perform actions after a certain task is completed.
 
     - Event Listeners are functions that are called when a specific event occurs on an element, such as a click or a keypress. They allow you to respond to user interactions and perform actions based on those interactions.
+
+    - Js  have just One call stack [Main Thread]
+
+    - Event listners are heavy and they can cause performance issues if not used properly. It's important to remove event listeners when they are no longer needed to free up memory and improve performance.
+
+# EP-15 | Asynchronous JavaScript & EVENT LOOP from scratch 🔥
+
+    - Browser is the most remarkable creation of mankind
+    - Callback Queue -> Executes lower-priority async tasks (like setTimeout, events) after microtasks are completed.
+    - Microtask Queue -> Promises and Mutation Observer
+    - starvation of callback queue can happen when microtask queue is continuously filled with tasks, preventing callback queue tasks from executing.
+
+# EP-16 | JS Engine EXPOSED 🔥 Google's V8 Architecture 🚀
+
+    - 
