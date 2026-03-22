@@ -90,5 +90,17 @@
 
 # EP-13 | FIRST CLASS FUNCTIONS 🔥ft. Anonymous Functions
 
+    - Major diff between Function Statement and fucntion expression is Hoisting
+    - function statement --> function declaration is hoisted and can be called before its declaration
+    - function expression --> function expression is not hoisted and cannot be called before its declaration
     - Anonymous function ---> function with no name
-    - firstCall function ----> 
+
+    - firstClass function or function first Class Citizen ----> function that can be treated as a value and can be passed as an argument to another function or returned from another function
+
+
+# EP-14 | Callback Functions in JS ft. Event Listeners 🔥
+
+    - A callback function is a function that is passed as an argument to another function and is executed after some operation has been completed.
+    - Callback functions are commonly used in asynchronous programming to handle events or perform actions after a certain task is completed.
+
+    - Event Listeners are functions that are called when a specific event occurs on an element, such as a click or a keypress. They allow you to respond to user interactions and perform actions based on those interactions.
