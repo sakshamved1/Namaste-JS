@@ -84,4 +84,11 @@
 # EP-12 | CRAZY JS INTERVIEW 🤯ft. Closures
 
     - Whenever a function invoked it creats a copy of all its variables in its lexical scope
-    
+
+    - Garbage collector  is a program in js engine which frees up the memory When it found unused variables and functions
+    - If we forms closures it accumulates large memory
+
+# EP-13 | FIRST CLASS FUNCTIONS 🔥ft. Anonymous Functions
+
+    - Anonymous function ---> function with no name
+    - firstCall function ----> 
