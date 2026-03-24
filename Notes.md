@@ -118,4 +118,11 @@
 
 # EP-16 | JS Engine EXPOSED 🔥 Google's V8 Architecture 🚀
 
-    - 
+    - EcmaScript --> ECMAScript is the official standard/specification that defines how JavaScript should work.
+    - Every browser has its own JS engine that implements the ECMAScript specification. For example, Google Chrome uses the V8 engine, Firefox uses SpiderMonkey, and Safari uses JavaScriptCore (also known as Nitro).
+
+# EP-17 | TRUST ISSUES with setTimeout()
+
+    - setTimeout waits for all syncronous code to execute before it executes its callback functions.
+    - setTimeout with 0 delay will still execute after all synchronous code has completed, which can lead to unexpected behavior if you rely on it for timing-sensitive operations.
+    - setTimeout 0 can be used when we want to defer some piece of code
