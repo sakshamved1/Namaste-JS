@@ -126,3 +126,9 @@
     - setTimeout waits for all syncronous code to execute before it executes its callback functions.
     - setTimeout with 0 delay will still execute after all synchronous code has completed, which can lead to unexpected behavior if you rely on it for timing-sensitive operations.
     - setTimeout 0 can be used when we want to defer some piece of code
+
+# EP-18 | Higher-Order Functions ft. Functional Programming
+
+    - A higher order fucntion is a function that takes function as an argument or returns a function.
+    - DRY Principle --> DO NOT REPEAT YOURSELF
+    - In higher order function we try to make code more modular
