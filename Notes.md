@@ -1,3 +1,5 @@
+##### SEASON 1
+
 # 3 Hoistings
 
     - Hoisting is a Phenomenon in JS where You can access the variables and functions even before initializing them.
@@ -139,3 +141,13 @@
     - filter function also takes an callback func and filter out the values accoridnng to callback
     - Reduce function takes acc, curr and iterates
     - map chaining
+
+#### SEASON 2
+
+# EP-01 | Callback Hell
+
+    - issue in Callbacks
+        - Callback hell or Pyramid of Doom is a condition where the code starts Growing Horizontally Instead of vertically
+        - Inversion of Control --> Where we loose the control of our Program and code becomes hard to maintain
+        - By passing callback function we passed the control of our program to another function
+        - Async programming in JS exists because of Callback exists
