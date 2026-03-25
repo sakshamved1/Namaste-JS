@@ -132,3 +132,10 @@
     - A higher order fucntion is a function that takes function as an argument or returns a function.
     - DRY Principle --> DO NOT REPEAT YOURSELF
     - In higher order function we try to make code more modular
+
+# EP-19 | map, filter & reduce 🙏
+
+    - map function takes an callback function and iterate on every index of array
+    - filter function also takes an callback func and filter out the values accoridnng to callback
+    - Reduce function takes acc, curr and iterates
+    - map chaining
