@@ -162,3 +162,11 @@
         - rejected
     - Promise objects are immutable[Unchangeable]
     - Always return once you receive data from Promise
+
+# EP-03 | Creating a Promise, Chaining & Error Handling
+
+    - Creating a Promise producer part
+    - always return a promise
+    - Promise chaining
+    - Waatever happens after catch it'll be definately be called
+    - We have attached the failure callback in promises
