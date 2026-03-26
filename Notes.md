@@ -151,3 +151,14 @@
         - Inversion of Control --> Where we loose the control of our Program and code becomes hard to maintain
         - By passing callback function we passed the control of our program to another function
         - Async programming in JS exists because of Callback exists
+
+# EP-02 | Promises
+
+    - Promise is an empty object Which returns the eventual completion of an async operation
+    - Promise give us gurantee that code will be 100% executed Once the data is received
+    - Promise can have 3 States
+        - Pending
+        - fullfilled
+        - rejected
+    - Promise objects are immutable[Unchangeable]
+    - Always return once you receive data from Promise
