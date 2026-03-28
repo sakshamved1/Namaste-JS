@@ -213,4 +213,7 @@
 
 # EP-07 call, apply and bind method in JavaScript
 
-    - 
+    - function borrowing
+    - .call method -> pass argument by comma seperated idnividually
+    - Instead of passing args individually in .apply method we pass the array of arguments
+    - .bind returns a copy of that method which can be invoked later
