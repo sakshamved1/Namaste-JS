@@ -170,3 +170,34 @@
     - Promise chaining
     - Waatever happens after catch it'll be definately be called
     - We have attached the failure callback in promises
+
+# EP-04 | Async await
+
+    - Async is a keyword that is used before function to make async function
+    - Async function always returns an promise
+    - if you return any value Async function take that value and wrap it inside Promise
+
+    - Async and await combo is used to handle promises
+    - Await is a keyword that can only be used inside async function
+    - We write Await in front of promise and it resolves the promise
+    - WHen there's Await keyword the function execution is suspend for that time
+
+    - How fetch Works();
+        - fetch() => Response.json() => jsonValue
+        - Q. Async await
+            - Async is a keyword used before function to make async function
+            - Await is a keyword used inside async function to handle promises
+            -
+
+# EP-05 | Promise APIs + Interview Questions 🔥
+
+    - Types
+        - Promise.all()  - if all success then success array else Error
+        - Promise.allSettled()  - Wait for all promise to settle then return an aggregate array
+        - Promise.race(); - Return the first settled promise either its failure or success
+        - Promise.any() - wait for the  first settled succcess if all Fails it'll Throw an Aggregate error
+
+# EP-06 | this keyword in JavaScript
+
+    - Whereever JS runs there's JS runtime environment
+    - 
