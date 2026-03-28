@@ -200,4 +200,17 @@
 # EP-06 | this keyword in JavaScript
 
     - Whereever JS runs there's JS runtime environment
+    - The value of this is depend on where you are running that Piece of code
+    - this keyword works differently in strictmode and non strict mode
+
+    - (this substitution) - The value of this is undefined or null this will be replaced with globalObject Only in non-strict mode
+
+    - Function vs method ---> If you create fucntion as an part of object is it called method
+    - When we run (this) keyword inside object the Value will be method
+
+    - Arrow function will not provide their own (this) binding
+    - Inside arrow function this will refers to enclosing lexical Context(where obj is lexically enclosed);
+
+# EP-07 call, apply and bind method in JavaScript
+
     - 
